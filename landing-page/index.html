@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex"> <!--DEV ONLY-->
+	<meta name="googlebot" content="noindex"> <!--DEV ONLY-->
+	 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title> Dzwigi Malucha - Windy Suwnice Wciagniki Żurawie - Zabrze Gliwice </title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <style>
+      
+        html,
+        body,
+        .view-main{
+            height: 100%;
+        } 
+        .view-phones-portrait {
+            height: 100%;
+        }
+        
+        body {
+		    position: relative;
+		    overflow-y: auto;
+		    /*padding-top: 70px; /* padding for fixed navbar */
+		}
+		 
+        /* NAVBAR TRANSPARENT - UNCOMMENT */
+        .navbar{
+                /* background: transparent !important; */
+                background-color: rgb(207, 216, 220) !important;
+        }
+		
+		.top-nav-collapse {
+            background-color: #cfd8dc !important; /* kolor w momwncie zjechania z glownego zdjecia */
+        } 
+        
+        .scrolling-navbar { /* zmiana koloru navbar po zjechaniu z glownego zdjecia */
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+		@media (max-width: 768px) {
+		    .navbar:not(.top-nav-collapse) {
+		        background: #cfd8dc !important;
+		    } 
+		}
+		
+		/* @media (max-width: 740px) {
+		    .full-height,
+		    .full-height body,
+		    .full-height header,
+		    .full-height header .view {
+		        height: 700px; 
+		    } 
+		}         */
+        
+        footer.page-footer {
+            background-color: #3c4f74;
+            margin-top: 2rem;
+        }
+
+        
+        .flex-center {
+            color: white;
+        }
+        
+        .view-main {
+            background: url('./img/malucha/maluchaeu-head-horizontal.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        .view-phones-portrait {
+            background: url('./img/malucha/maluchaeu-head-vertical.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }    
+        
+        @media (min-width: 640px) {
+            .intro-dzwigi-malucha{
+				    background: url('./img/malucha/maluchaeu-head-horizontal.jpg') no-repeat center center fixed;
+	            -webkit-background-size: cover;
+	            -moz-background-size: cover;
+	            -o-background-size: cover;
+	            background-size: cover;
+	            background-attachment: local;
+	   				background-position: center center;
+		        }
+			}
+
+		@media (max-width: 639px) {
+		    .intro-dzwigi-malucha{
+	            background: url('./img/malucha/maluchaeu-head-vertical.jpg') no-repeat center center fixed;
+	            -webkit-background-size: cover;
+	            -moz-background-size: cover;
+	            -o-background-size: cover;
+	            background-size: cover;		
+	            background-attachment: local;
+    			   background-position: center center;    
+          }
+		}
+		
+        
+        /*Contact section*/
+        
+        #contact .fa {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: rgb(108, 160, 209);
+        }
+
+        .semitransparent{
+            background:rgba(0,0,0,0.50);
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+    
+    <!-- Material Design Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body data-spy="scroll" data-target="#navbarData" data-offset="0">
+
+ <!--NAVBAR-->
+    <!-- <nav class="navbar navbar-toggleable-md navbar-inverse bg-faded fixed-top scrolling-navbar" id="navbarTop" style="">  --> <!-- WHITE FONT WHILE NAVBAR ON TOP -->
+    <nav id="navbarTop" class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top scrolling-navbar">
+        <div class="container">
+                      
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarData" aria-controls="navbarData" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./img/malucha/Logo-ZED-COLOR-outlined-BLACK-30px.png" alt="logo">
+                <strong> ZED Ryszard Malucha </strong>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarData">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"> Witamy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Usługi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teritory">Obszar działalności</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+<!--/NAVBAR-->
+
+    <!--Mask-->
+    <div id="home"></div>
+    <div class="view-main jarallax intro-dzwigi-malucha hm-black-light" data-jarallax='{"speed": 0.2}'>
+    <!-- <div class="view-main jarallax intro-dzwigi-malucha" data-jarallax='{"speed": 0.2}'> -->
+        <div class="full-bg-img flex-center">
+            <ul>
+                <li>
+                        <img class="wow zoomIn mx-auto d-block img-fluid hidden-sm-down" data-wow-delay="0.2s" src="./img/malucha/Logo-ZED-WHITE-outlined-150px.png" alt="logo">
+                </li>
+                <li class="semitransparent">
+                    <h1 class="h1-responsive wow fadeIn semitransparent" data-wow-delay="0.2s">Instalujemy i utrzymujemy w ruchu urządzenia transportu bliskiego</h1>
+                    <h2 class="h2-responsive wow fadeIn semitransparent red-text" data-wow-delay="0.2s">od podan 40 lat</h2>
+                </li>
+                <li>
+                    <h5 class="wow fadeInDown semitransparent">Windy, Suwnice, Wciągniki, Platformy, Podnośniki</h5>
+                </li>
+                <li>
+                    <a href="#services" class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s" rel="nofollow">Usługi</a>
+                    <a href="#contact" class="btn btn-default btn-lg wow fadeInRight" data-wow-delay="0.2s" rel="nofollow">Kontakt</a>
+                </li>
+            </ul> 
+        </div>
+    </div>
+    <!--/.Mask-->
+
+<!--CAROUSEL-->
+
+      <!-- <div class="main-view jarallax intro-dzwigi-malucha" data-jarallax='{"speed": 0.2}' style="height: 100%;">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="row pt-5 mt-3">
+                    <div class="col-md-12 mb-3">
+                        <div class="intro-info-content text-center">
+                            <ul>
+                                <li>
+                                        <img class="wow zoomIn mx-auto d-block img-fluid hidden-sm-down" data-wow-delay="0.2s" src="./img/malucha/Logo-ZED-outlined.png" alt="logo">
+                                        <img class="wow zoomIn mx-auto d-block img-fluid hidden-md-up" data-wow-delay="0.2s" src="./img/malucha/Logo-ZED-outlined-75px.png" alt="logo">
+                                </li>
+                                <li>
+                                    <h1 class="h1-responsive wow fadeIn semitransparent" data-wow-delay="0.2s"> Instalujemy i utrzymujemy w ruchu urządzenia transportu bliskiego</h1>
+                                </li>
+                                <li>
+                                    <h5 class="wow fadeInDown semitransparent">Windy, Suwnice, Wciągniki, Platformy, Podnośniki</h5>
+                                </li>
+                                <li>
+                                    <a href="#services" class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s" rel="nofollow">Usługi</a>
+                                    <a href="#contact" class="btn btn-default btn-lg wow fadeInRight" data-wow-delay="0.2s" rel="nofollow">Kontakt</a>
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!--/CAROUSEL-->
+
+<!--ABOUT-->
+    <div id="about"></div>
+    <div class="container">
+
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">O Nas</h2>
+        </div>
+        
+        <!--Section: About-->
+        <section class="wow fadeInRight center-on-small-only" data-wow-delay="0.2s">
+            <img class="wow zoomIn mx-auto d-block img-fluid" data-wow-delay="0.2s" src="./img/malucha/Logo-ZED-COLOR-outlined-100px.png" alt="logo">
+            <hr>
+            <!-- <img class="wow zoomIn mx-auto d-block img-fluid hidden-sm-down" data-wow-delay="0.2s" src="./img/malucha/Logo-ZED-COLOR-outlined-100px.png" alt="logo">
+            <hr class="hidden-sm-down"> -->
+
+            <p class="h4 text-center">Zakład Elektromechaniki Dźwigowej<br>Ryszard Malucha</p>
+            <hr>
+                    
+            <p>Nasze zasady są proste - "Ty zajmujesz się prowadzeniem Swojego biznesu, my służymy Ci szerokim wachlarzem usług w obszarze urządzeń transportu bliskiego".</p> 
+
+            <p>Istniejemy na rynku od 1978 roku i od tego momentu po dzień dzisiejszy zajmujemy się urządzeniami dźwigowymi. Przez blizko 35 lat ciągle zdobywamy doświadczenia i budujemy kompetencje, które pozwalają nam świadczyć najwyższej jakości usługi przygotowania projektów, serwisu oraz instalacji urządzeń dźwignicowych.</p> 
+            
+            <p>Jesteśmy niewielką ale prężnie działającą firmą, której przez okres działalności zaufało blisko 100 przedsiębiorstw z różnych branż gospodarki. Jako mała firma doskonale zdajemy sobie sprawę z tego, jak ważna jest perspektywa kosztów. Każdy przedsiębiorca stara się utrzymać je na jak najniższym poziomie, dlatego też zawsze dostosowujemy naszą ofertę do indywidualnych wymagań klienta.</p> 
+            
+            <p>Stale serwisujemy setki urządzeń na terenie Górnego Śląska i okolic pomagając wielu firmom utrzymać ich maszyny w ruchu i kontynuować prowadzenie biznesu bez krytycznych przestojów.</p> 
+            
+            <p>Posiadamy uprawnienia i certyfikaty Urzędu Dozoru Technicznego na wykonywanie wszystkich usług objętych obszarem naszej działalności, które świadczą o naszych kompetencjach oraz profesjonaliźmie. </p>
+            
+            <p>W ramach posiadanych uprawnień wykonujemy montaże, instalacje, remonoty oraz modernizacje różnego rodzaju urządzeń służących do transportu bliskiego. Możemy pochwalić się wieloma zrealizowanymi przedsięwzięciami o różnej skali.</p> 
+            
+            <p>Bardzo szanujemy zaufanie jakim nas obdarzają nasi aktualni oraz przyszli klienci i często (jeśli tylko pozwala nam na to zasób czasu) służymy wsparciem w zakresie posiadanych przez nas kompetencji, nawet jeśli czasem literalnie wykracza to poza ramy naszej współpracy. </p>
+        </section>
+        <!--Section: About-->
+        
+	  </div>
+<!--/ABOUT -->
+	  
+ <!-- SERVICES -->	  
+	  <div id="services"></div>
+	  <div class="container">
+
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn">Nasze usługi</h2>
+        </div>
+
+        <section>
+            <div class="row">
+
+                <!--First columnn-->
+                <div class="col-lg-4">
+                    <!--Card-->
+                    <div class="card wow fadeIn">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-light hm-zoom">
+                            <img src="./img/malucha/maluchaeu-installation.jpg" class="img-fluid animated jello" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title text-center">Instalacje, remonty i modernizacje</h4>
+                            <hr>
+                            <!--Text-->
+                            <!-- <p class="card-text">
+                            Urządzeń dźwignicowych takich jak: 
+                                <dl style="list-style-type: circle;">
+                                    <li>widny,</li> 
+                                    <li>wciągniki,</li> 
+                                    <li>podesty ruchome,</li> 
+                                    <li>żurawie stanowiskowe,</li> 
+                                    <li>podnośniki samochodowe warsztatowe,</li> 
+                                    <li>urządzenia dla osób niepełnosprawnych,</li> 
+                                    <li>urządzenia nietypowe</li>
+                                </dl>
+                            </p>                 -->
+                            <p class="card-text">               
+                            W ramach typowego zlecenia zajmujemy się:
+                                <dl>
+                                    <li>przygotowaniem koncepcji instalacji,</li> 
+                                    <li>wykonaniem niezbędnych projektów a w szczególności projektu technicznego,</li> 
+                                    <li>przeprowadzeniem montażu/instalacji/modernizacji urządzenia,</li>
+                                    <li>wykonaniem drobnych robót budowlanych (wyłącznie związanych z instalacją)</li>
+                                    <li>organizajcją odbióru inwestorskiego,</li> 
+                                    <li>przygotowaniem maszyny do odbioru przez Urząd Dozoru Technicznego,</li> 
+                                    <li>organizacją i przeprowadzeniem odbioru UDT urządzenia</li> 
+                                </dl>
+                            </p>
+                            <p class="card-text">  
+                            Posiadamy ponad 30 letnie doświadczenie w branży.
+                            </p>
+                            <p class="card-text"> 
+                            Do kadego zlecenia podchodzimy indywidualnie i dopasowujemy rozwiązanie do potrzeb inwestora.
+                            </p>
+                            <p class="card-text"> 
+                            W przypadku większych prac budowlanych, których nie będziemy w stanie się podjąć, zaproponujemy Państwu bazę sprawdzonych firm budowlanych, z którymi mieliśmy okazję współpracować w przeszłości w trakcie innych przedsięwzięć
+                            </p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
+
+                <!--Third columnn-->
+                <div class="col-lg-4">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.4s">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-light hm-zoom">
+                            <img src="./img/malucha/maluchaeu-types.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title text-center">Typy obsługiwanych urządzeń</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">
+                                <dl>
+                                    <li>WINDY
+                                        <dl class="offset-1">
+                                            <li>osobowe, towarowe, towarowo-osobowe, szpitalne</li>
+                                            <li>linowe, hydrauliczne, łańcuchowe</li>
+                                        </dl>
+                                    </li>
+                                    <li>SUWNICE</li>
+                                    <li>WCIĄGNIKI</li>
+                                    <li>ZURAWIE STANOWISKOWE</li>
+                                    <li>PODNOŚNIKI SAMOCHODOWE</li>
+                                    <li>PLATFORMY JEZDNJE</li>
+                                    <li>PODESTY RUCHOME</li>
+                                    <li>URZĄDZENIA DLA OSÓB NIEPEŁNOSPRAWNYCH</li>
+                                    <li>URZĄDZENIA NIETYPOWE</li>
+                                </dl>             
+                            </p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Third columnn-->
+
+                <!--Second columnn-->
+                <div class="col-lg-4">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-light hm-zoom">
+                            <img src="./img/malucha/maluchaeu-service.jpg" class="img-fluid animated pulse" data-wow-offset="2s" data-wow-iteration="10" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title text-center">Serwis<br>urządzeń</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">
+                                Regularnie przeglądamy i sprawdzamy urządzenia pod kątem technicznym i zgodności z aktualnie obowiązującymi przepisami prawa   
+                            </p>
+                            <p class="card-text">
+                                Zapewniamy reprezentację w kontaktach z Urzędem Dozoru Technicznego oraz organizujemy i przeprowadzamy obowiązkowe, okresowe rewizje UDT w ramach usługi serwisowej   
+                            </p>
+                            <p class="card-text">
+                                Prowadzimy szkolenia przygotowujące do egzaminów UDT (Urzędu Dozoru Technicznego) dotyczących użytkowania urządzeń transportu bliskiego
+                            </p>
+                            <p class="card-text">
+                                Usuwamy awarie urządzeń wynikające z ich eksploatacji
+                            </p>
+                            <p class="card-text">
+                                Służymy pomocą i doradzamy na każdym etapie użytkowania urządzenia 
+                            </p>
+                            <p class="card-text">
+                                Zapewniamy konkurencyjne ceny oraz wysoką jakość usług potwierdzoną referencjami naszych klientów 
+                            </p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Second columnn-->
+
+
+                
+            </div><!--/row-->
+        </section>
+
+	 </div>
+<!--/SERVICES-->
+	        
+<!-- CONTACT -->
+	 <div id="contact" class="container">
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn">Kontakt</h2>
+        </div>
+
+        <section>
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-8">
+                    <div class="view">
+                        <a href="https://mapa.targeo.pl/Zabrze%2520%2520Tatarkiewicza%25202a,mapa_46883340" title="Mapa Polski Targeo">
+                            <img src="./img/malucha/Zabrze_Tatarkiewicza_2a_46883340.png" class="img-fluid animated jello" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-4">
+                    <ul class="text-center">
+                        <li class="wow fadeInRight" data-wow-delay="0.2s"><i class="fa fa-map-marker"></i>
+                            <p>ZABRZE, 41-819, Tatarkiewicza 2a/7</p>
+                        </li>
+
+                        <li class="wow fadeInRight" data-wow-delay="0.3s"><i class="fa fa-phone"></i>
+                            <p><strong>(+48 0) 32 275 28 55</strong></p>
+                        </li>
+
+                        <li class="wow fadeInRight" data-wow-delay="0.4s"><i class="fa fa-envelope"></i>
+                            <p>biuro@malucha.eu</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--/Second column-->
+            </div>
+        </section>
+    </div>
+<!--/CONTACT-->
+
+<!-- TERITORY -->
+<div id="teritory" class="container">
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn">Obszar naszego działania</h2>
+        </div>
+
+        <section>
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-6">
+                    <div class="view">
+                        <a href="https://mapa.targeo.pl/Zabrze%2520%2520Tatarkiewicza%25202a,mapa_46883340" title="Mapa Polski Targeo">
+                            <img src="./img/malucha/mapa_polski.png" class="img-fluid animated fadeInLeft" alt="wojewodztwo śląskie i opolskie">
+                        </a>
+                    </div>
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-6 text-center center center animated fadeInRight">
+                            <h5>Obszar naszego działania to głównie górny śląsk i jego okolice. Realizujemy równiez zlecenia na terenie województwa śląskiego i opolskiego.</h5>
+                </div>
+                <!--/Second column-->
+            </div>
+        </section>
+    </div>
+<!--/TERITORY-->
+
+<!--FOOTER-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 offset-lg-1">
+                    <h5 class="title"><strong>Godziny otwarcia:</strong></h5>
+                    <ul>
+                        <li>poniedziałek 7:00-15:00</li>
+                        <li>wtorek 7:00-15:00</li>
+                        <li>środa 7:00-15:00</li>
+                        <li>czwartek 7:00-15:00</li>
+                        <li>piątek 7:00-15:00</li>
+                    </ul>
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-lg-3 col-md-4 offset-lg-1" id="contact-visit">
+                    <h4 class="title animated pulse infinite">Zgłoszenia serwisowe: </h4>
+                    <ul>            
+                        <li class="animated fadeInUpBig"><strong>tel. +48 32 275 28 55</strong></li>
+                        <li class="animated fadeInUpBig">w godzinach otwarcia firmy</li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-lg-3 col-md-4 offset-lg-1">
+                    <h5 class="title">Telefony alarmowe:</h5>
+                    <ul>
+                    	<li>kom. +48 696 43 88 61</li>
+                        <li>kom. +48 518 97 95 49</li>
+                 	</ul>
+                </div>
+                <!--/.Third column-->
+
+                <!-- <hr class="hidden-md-up"> -->
+
+                <!--Fourth column-->
+                <!-- <div class="col-lg-2 col-md-4">
+                    <h5 class="title">Znajdź nas</h5>
+                    <ul>
+                        <li><a href="#!">LinkedIn</a></li>
+                    </ul>
+                </div> -->
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+		  <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2019 Copyright: Zakład Elektromechaniki Dźwigowej Ryszard Malucha 
+            </div>
+        </div>
+		  <!--/.Copyright-->
+
+    </footer>
+ <!--/.FOOTER-->
+
+
+ <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!--Google Maps-->
+    <script src="https://maps.google.com/maps/api/js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoHpXgU8KqUUDShRmOcj70kGTl40E4Ung&callback=initMap" type="text/javascript"></script>
+  
+    <script>
+        function init_map() {
+
+            //var var_location = new google.maps.LatLng(50.312002, 18.761452); //dzwigi-zabrze location
+            var var_location = new google.maps.LatLng(50.3040219, 18.791085); //medico location
+            
+            var var_mapoptions = {
+                center: var_location,
+                zoom: 14
+            };
+
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title: "Stomatologia-Studzinski, Zabrze"
+            });
+
+            var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+            var_marker.setMap(var_map);
+        }
+
+        google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+
+    <!-- Animations init-->
+    <script>
+        new WOW().init();
+    </script>
+
+	 <script type="text/javascript">
+	 	$('body').scrollspy({ target: '#navbarTop' })
+     </script>
+     
+     <!-- Targeo map -->
+	 <script src="https://mapa.targeo.pl/Targeo.html?vn=2_4&amp;v=lite&amp;k=KreatorxODU5Y2I5ZDhmYmIzNGUyNTllNWU5ODY1YzBmODA3N2E3Zg==" type="text/javascript"></script>
+<!--/SCRIPTS-->
+</body>
+
+</html>
